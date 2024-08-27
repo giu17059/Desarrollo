@@ -236,6 +236,9 @@ h1{
     font-size: 3rem;
 }
 
+h3{
+  font-size: 1.5rem;
+}
 
 .navegacion_contenedor{
     background-color: var(--primarioOscuro);
@@ -321,3 +324,4 @@ footer {
   width: 20rem;
   height: auto;
 }
+
