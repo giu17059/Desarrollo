@@ -236,6 +236,10 @@ h1{
     font-size: 3rem;
 }
 
+h3{
+  font-size: 1.5rem;
+  font-weight: 200;
+}
 
 .navegacion_contenedor{
     background-color: var(--primarioOscuro);
@@ -281,6 +285,7 @@ footer {
     font-family: var(--fuentePrincipal);
     margin-bottom: 2rem;
     margin-top: 5rem;
+    font-weight: 200;
 }
 
 .redes_contenedor{
@@ -321,3 +326,4 @@ footer {
   width: 20rem;
   height: auto;
 }
+
