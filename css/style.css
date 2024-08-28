@@ -236,6 +236,11 @@ h1{
     font-size: 3rem;
 }
 
+h2{
+  font-size: 2rem;
+  font-family: var(--fuenteTitulo);
+}
+
 h3{
   font-size: 1.5rem;
   font-weight: 200;
@@ -265,7 +270,7 @@ h3{
 }
 
 .navegacion_apartados:hover{
-  background-color: #2005ee;
+  background-color: #089898;
   font-weight: 700;
 }
 
@@ -309,6 +314,10 @@ footer {
   justify-content: center;
 }
 
+.redes_conjunto:hover{
+  color: var(--secundario);
+}
+
 .contenedor_principal{
    display: grid;
    grid-template-columns: repeat(1, 50%);
@@ -327,3 +336,12 @@ footer {
   height: auto;
 }
 
+.contenedor_lista{
+  font-size: 1.5rem;
+  font-family: var(--fuentePrincipal);
+  color: var(--secundario);
+}
+
+li{
+  margin-top: 0.5rem;
+}
