@@ -345,3 +345,7 @@ footer {
 li{
   margin-top: 0.5rem;
 }
+
+.inicio_titulo{
+  text-decoration: none;
+}
