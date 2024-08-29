@@ -1,6 +1,6 @@
 :root {
-  --primario: #86f5f8;
-  --primarioOscuro: #4fd5f0;
+  --primario: #9df0f3;
+  --primarioOscuro: #09db68;
   --secundario: #fd3232;
   --fuenteTitulo: 'Bungee Tint', static;
   --fuentePrincipal: 'New Amsterdam', sans-serif;
@@ -9,10 +9,10 @@
 /* From Uiverse.io by rishichawda */
 /* The switch - the box around the slider */
 #theme-toggle-button {
-  font-size: 17px;
+  font-size: 0.3rem;
   position: relative;
   display: inline-block;
-  width: 7em;
+  width: 3.3rem;
   cursor: pointer;
 }
 
@@ -79,15 +79,8 @@
   opacity: 1;
 }
 
-body {
-  font-size: 62.5%;
-  /*ajustar tamaño letra para que un 1 rem = 10px*/
-  background-color: var(--primario);
-}
-
 .bodymio {
   font-size: 62.5%;
-  /*ajustar tamaño letra para que un 1 rem = 10px*/
   background-color: var(--primario);
 }
 
@@ -113,6 +106,7 @@ body {
 .navegacion_contenedor {
   background-color: var(--primarioOscuro);
   font-size: 2rem;
+  margin: 0rem;
   font-family: var(--fuentePrincipal);
 }
 
