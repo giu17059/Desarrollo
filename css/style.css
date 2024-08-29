@@ -234,11 +234,13 @@ body {
 h1{
     font-family: var(--fuenteTitulo);
     font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 h2{
   font-size: 2rem;
   font-family: var(--fuenteTitulo);
+  margin-left: 1rem;
 }
 
 h3{
@@ -334,6 +336,7 @@ footer {
 .imagen_principal{
   width: 20rem;
   height: auto;
+  border-radius: 2rem;
 }
 
 .contenedor_lista{
@@ -348,4 +351,60 @@ li{
 
 .inicio_titulo{
   text-decoration: none;
+}
+
+.formulario_contenedor{
+  display: grid;
+  grid-template-columns: 40%;
+  align-items: center;
+  justify-content: center;
+  color: #fd3232;
+}
+
+.formulario_items{
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: auto;
+  font-family: var(--fuentePrincipal);
+  font-size: 1rem;
+}
+
+.boton{
+  background-color: #089898;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  
+}
+
+.boton:hover{
+  background-color: var(--secundario);
+  cursor: pointer;
+}
+
+.mensaje{
+  height: 3rem;
+}
+
+.info_contacto{
+  font-family: var(--fuentePrincipal);
+  font-size: 0.8rem;
+  margin: 0rem;
+  color: green;
+}
+
+.nav_contacto{
+  text-decoration: none;
+  color: green;
+}
+
+.nav_contacto::selection{
+  color: green;
+}
+
+.titulo_contacto{
+  font-size: 1.2rem;
+}
+
+.texto_contacto{
+  text-decoration: underline;
 }
