@@ -7,7 +7,7 @@ checkbox.addEventListener('change', function () {
         document.getElementById('footer').style.color = 'white';
     } else {
         document.body.style.backgroundColor = ' #86f5f8';
-        document.getElementById('navegacion').style.backgroundColor = '#4fd5f0';
+        document.getElementById('navegacion').style.backgroundColor = '#09db68';
         document.getElementById('footer').style.color = '';
     }
 });

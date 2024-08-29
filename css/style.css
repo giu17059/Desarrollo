@@ -89,6 +89,7 @@
   font-family: var(--fuenteTitulo);
   font-size: 3rem;
   margin-bottom: 0.5rem;
+  margin-left: 4rem;
 }
 
 .h2mio {
@@ -162,6 +163,7 @@ footer {
   margin-bottom: 2rem;
   margin-top: 5rem;
   font-weight: 200;
+  margin-left: 2rem;
 }
 
 .redes_contenedor {
