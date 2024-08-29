@@ -408,3 +408,14 @@ li{
 .texto_contacto{
   text-decoration: underline;
 }
+
+.parrafo_mio{
+  font-family: var(--fuentePrincipal);
+  color: #fd3232;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.contenedor_mio{
+  max-width: 50rem;
+}
