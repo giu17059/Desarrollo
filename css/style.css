@@ -1,12 +1,12 @@
-:root{
-    --primario: #86f5f8;
-    --primarioOscuro: #4fd5f0;
-    --secundario: #fd3232;
-    --fuenteTitulo: 'Bungee Tint', static;
-    --fuentePrincipal: 'New Amsterdam', sans-serif;
+:root {
+  --primario: #86f5f8;
+  --primarioOscuro: #4fd5f0;
+  --secundario: #fd3232;
+  --fuenteTitulo: 'Bungee Tint', static;
+  --fuentePrincipal: 'New Amsterdam', sans-serif;
 }
 
-/* From Uiverse.io by rishichawda */ 
+/* From Uiverse.io by rishichawda */
 /* The switch - the box around the slider */
 #theme-toggle-button {
   font-size: 17px;
@@ -36,12 +36,12 @@
 }
 
 /* night sky background */
-#toggle:checked + svg #container {
+#toggle:checked+svg #container {
   fill: #2b4360;
 }
 
 /* move button to right when checked */
-#toggle:checked + svg #button {
+#toggle:checked+svg #button {
   transform: translate(28px, 2.333px);
 }
 
@@ -50,7 +50,7 @@
   opacity: 1;
 }
 
-#toggle:checked + svg #sun {
+#toggle:checked+svg #sun {
   opacity: 0;
 }
 
@@ -58,7 +58,7 @@
   opacity: 0;
 }
 
-#toggle:checked + svg #moon {
+#toggle:checked+svg #moon {
   opacity: 1;
 }
 
@@ -67,7 +67,7 @@
   opacity: 1;
 }
 
-#toggle:checked + svg #cloud {
+#toggle:checked+svg #cloud {
   opacity: 0;
 }
 
@@ -75,148 +75,163 @@
   opacity: 0;
 }
 
-#toggle:checked + svg #stars {
+#toggle:checked+svg #stars {
   opacity: 1;
 }
 
-
-
-
-
 body {
-    font-size: 62.5%; /*ajustar tamaño letra para que un 1 rem = 10px*/
-    background-color:  var(--primario);
+  font-size: 62.5%;
+  /*ajustar tamaño letra para que un 1 rem = 10px*/
+  background-color: var(--primario);
 }
 
-.bodymio{
-  font-size: 62.5%; /*ajustar tamaño letra para que un 1 rem = 10px*/
-  background-color:  var(--primario);
+.bodymio {
+  font-size: 62.5%;
+  /*ajustar tamaño letra para que un 1 rem = 10px*/
+  background-color: var(--primario);
 }
 
 
-.h1mio{
-    font-family: var(--fuenteTitulo);
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
+.h1mio {
+  font-family: var(--fuenteTitulo);
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
-.h2mio{
+.h2mio {
   font-size: 2rem;
   font-family: var(--fuenteTitulo);
-  margin-left: 1rem;
+  margin-left: 4rem;
 }
 
-.h3mio{
+.h3mio {
   font-size: 1.5rem;
   font-weight: 200;
   margin-left: 2rem;
 }
 
-.navegacion_contenedor{
-    background-color: var(--primarioOscuro);
-    font-size: 2rem;
-    font-family: var(--fuentePrincipal);
+.navegacion_contenedor {
+  background-color: var(--primarioOscuro);
+  font-size: 2rem;
+  font-family: var(--fuentePrincipal);
 }
 
-.navegacion_apartados{
-    color: var(--secundario);
-    font-family: var(--fuentePrincipal);
-    text-decoration: none;
-    padding: 0.3rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+.navegacion_apartados {
+  color: var(--secundario);
+  font-family: var(--fuentePrincipal);
+  text-decoration: none;
+  padding: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-
-.navegacion_apartados::selection{
-    color: var(--secundario);
+.navegacion_apartados:hover {
+  text-decoration: none;
+  color: var(--secundario);
 }
 
-.navegacion_apartados:hover{
+.body_oscuro {
+  background-color: black;
+}
+
+.navegacion_oscuro {
+  background-color: grey;
+}
+
+.footer_oscuro {
+  color: white;
+}
+
+.navegacion_apartados::selection {
+  color: var(--secundario);
+}
+
+.navegacion_apartados:hover {
   background-color: #089898;
   font-weight: 700;
 }
 
-.parrafo_principal{
-    font-family: var(--fuentePrincipal);
-    font-size: 2rem;
-    color: var(--secundario);
-    grid-column: 1/2;
-    grid-row: 1/2;
-    margin-left: 1rem;
+.parrafo_principal {
+  font-family: var(--fuentePrincipal);
+  font-size: 2rem;
+  color: var(--secundario);
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin-left: 2rem;
 }
 
 footer {
-    width: 100%;
-    height: 4rem;
-    font-size: 1rem;
-    font-family: var(--fuentePrincipal);
-    margin-bottom: 2rem;
-    margin-top: 5rem;
-    font-weight: 200;
+  width: 100%;
+  height: 4rem;
+  font-size: 1rem;
+  font-family: var(--fuentePrincipal);
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+  font-weight: 200;
 }
 
-.redes_contenedor{
-    display: flex;
-    justify-content: space-around;
+.redes_contenedor {
+  display: flex;
+  justify-content: space-around;
 }
 
-.redes_texto{
+.redes_texto {
   display: flex;
   justify-content: center;
 }
 
-.redes_conjunto{
+.redes_conjunto {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.redes_apartados{
+.redes_apartados {
   display: flex;
   justify-content: center;
 }
 
-.redes_conjunto:hover{
+.redes_conjunto:hover {
   color: var(--secundario);
 }
 
-.contenedor_imagen{
+.contenedor_imagen {
   grid-column: 2/3;
   text-align: center;
   padding-top: 2rem;
 }
 
-.imagen_principal{
+.imagen_principal {
   width: 20rem;
   height: auto;
   border-radius: 2rem;
 }
 
-.contenedor_lista{
+.contenedor_lista {
   font-size: 1.5rem;
   font-family: var(--fuentePrincipal);
   color: var(--secundario);
 }
 
-li{
+.limio {
   margin-top: 0.5rem;
+  margin-left: 2.5rem;
 }
 
-.inicio_titulo{
+.inicio_titulo {
   text-decoration: none;
   font-family: var(--fuenteTitulo);
 }
 
-.inicio_titulo:hover{
+.inicio_titulo:hover {
   text-decoration: none;
 }
 
-.formulario_contenedor{
+.formulario_contenedor {
   color: #fd3232;
 }
 
-.formulario_items{
+.formulario_items {
   margin-top: 1rem;
   margin-bottom: 0rem;
   font-family: var(--fuentePrincipal);
@@ -224,17 +239,17 @@ li{
   justify-content: center;
 }
 
-.formulario_input{
+.formulario_input {
   width: 20rem;
   height: 1.5rem;
 }
 
-.formulario_campos{
+.formulario_campos {
   justify-content: center;
-  
+
 }
 
-.boton{
+.boton {
   background-color: #089898;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -242,53 +257,53 @@ li{
   height: 2rem;
 }
 
-.boton:hover{
+.boton:hover {
   background-color: var(--secundario);
   cursor: pointer;
 }
 
-.mensaje{
+.mensaje {
   height: 3rem;
 }
 
-.info_contacto{
+.info_contacto {
   font-family: var(--fuentePrincipal);
   font-size: 0.8rem;
   margin: 0rem;
   color: green;
 }
 
-.nav_contacto{
+.nav_contacto {
   text-decoration: none;
   color: green;
 }
 
-.nav_contacto:hover{
+.nav_contacto:hover {
   text-decoration: none;
   color: green;
 }
 
-.nav_contacto::selection{
+.nav_contacto::selection {
   color: green;
   text-decoration: none;
 }
 
-.titulo_contacto{
+.titulo_contacto {
   font-size: 1.2rem;
 }
 
-.texto_contacto{
+.texto_contacto {
   text-decoration: underline;
-  margin-bottom:0rem;
+  margin-bottom: 0rem;
 }
 
-.parrafo_mio{
+.parrafo_mio {
   font-family: var(--fuentePrincipal);
   color: #fd3232;
   font-size: 1.2rem;
-  margin-left: 1rem;
+  margin-left: 4rem;
 }
 
-.contenedor_mio{
+.contenedor_mio {
   max-width: 50rem;
 }
