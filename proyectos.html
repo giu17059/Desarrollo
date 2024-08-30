@@ -27,10 +27,10 @@
 
     <header>
         <a href="index.html" class="inicio_titulo">
-            <h1>Inicio</h1>
+            <h1 class="h1mio">Inicio</h1>
         </a>
-        <div class="container">
-        <nav class="navegacion_contenedor" id="navegacion">
+
+        <nav class="navegacion_contenedor container-fluid text-center" id="navegacion">
             <div class="row">
                 <div class="col">
                     <a class="navegacion_apartados" href="sobremi.html">Sobre mi</a>
@@ -132,27 +132,30 @@
                 </div>
             </div>
         </nav>
-    </div>
 
     </header>
 
     <!--inicio-->
     <main>
-        <h2 class="h2mio">Mis Proyectos:</h2>
-        <ul class="contenedor_lista">
-            <li class="limio">IOT aplicado al Estacionamiento de la facultad (proceso)</li>
-            <li class="limio">Sistema de lanzamientos de cohetes para la empresa "Space X"</li>
+        <div class="container-fluid p-5">
+            <div class="col-12">
+                <h2 class="h2mio row-12 ">Mis Proyectos:</h2>
+            </div>
+        </div>
+        <ul class="contenedor_lista container">
+            <li class="limio row-12">IOT aplicado al Estacionamiento de la facultad (proceso)</li>
+            <li class="limio row-12">Sistema de lanzamientos de cohetes para la empresa "Space X"</li>
         </ul>
     </main>
 
 
-    <footer id="footer">
-
-        <h3 class="h3mio">Mis redes sociales</h3>
-
-        <div class="redes_contenedor">
-            <div class="redes_conjunto">
-                <a href="https://www.instagram.com/giuli.77/" class="redes_apartados"><svg
+    <footer  id="footer" class="container-fluid">
+        <div class="row p-3">
+            <h3 class="col p-4 ">Mis redes sociales</h3>
+        </div>
+        <div class="redes_contenedor row">
+            <div class="redes_conjunto col">
+                <a target="_blank" href="https://www.instagram.com/giuli.77/" class="redes_apartados"><svg
                         xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
                         width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
@@ -164,7 +167,7 @@
 
                 <p class="redes_texto">Instagram</p>
             </div>
-            <div class="redes_conjunto">
+            <div class="redes_conjunto col">
                 <a href="https://www.linkedin.com/in/giuliano-destefanis-0b5981270/" class="redes_apartados"><svg
                         xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin"
                         width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none"
@@ -179,10 +182,11 @@
 
                 <p class="redes_texto">Linkedin</p>
             </div>
-            <div class="redes_conjunto">
-                <a href="https://github.com/giu17059" class="redes_apartados"><svg xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-brand-github" width="60" height="60" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <div class="redes_conjunto col">
+                <a target="_blank" href="https://github.com/giu17059" class="redes_apartados"><svg
+                        xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="60"
+                        height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path
                             d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />

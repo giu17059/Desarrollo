@@ -82,6 +82,7 @@
 .bodymio {
   font-size: 62.5%;
   background-color: var(--primario);
+  background: linear-gradient(#21acc5,var(--primario));
 }
 
 
@@ -126,15 +127,20 @@
 }
 
 .body_oscuro {
-  background-color: black;
+  background:linear-gradient(rgb(0, 0, 0),#012b01) ;
 }
 
 .navegacion_oscuro {
   background-color: grey;
+  color: var(--primarioOscuro);
+}
+
+.navegacion_oscuro:hover{
+  background-color: gray;
 }
 
 .footer_oscuro {
-  color: white;
+  color: rgb(252, 9, 9);
 }
 
 .navegacion_apartados::selection {
@@ -157,7 +163,6 @@
 
 footer {
   width: 100%;
-  height: 4rem;
   font-size: 1rem;
   font-family: var(--fuentePrincipal);
   margin-bottom: 2rem;
@@ -166,10 +171,6 @@ footer {
   margin-left: 2rem;
 }
 
-.redes_contenedor {
-  display: flex;
-  justify-content: space-around;
-}
 
 .redes_texto {
   display: flex;
@@ -236,8 +237,9 @@ footer {
 }
 
 .formulario_input {
-  width: 20rem;
-  height: 1.5rem;
+  width: 25rem;
+  height: 2rem;
+  font-size: 0.7rem;
 }
 
 .formulario_campos {
@@ -247,10 +249,11 @@ footer {
 
 .boton {
   background-color: #089898;
-  padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-top: 0.7rem;
   height: 2rem;
+  font-size: 1rem;
+  font-family: var(--fuentePrincipal);
 }
 
 .boton:hover {
